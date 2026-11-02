@@ -1,17 +1,17 @@
 {
  "titre": "<em>Kola</em>, portefeuille mobile",
- "type": "Application fintech · Mobile Money",
+ "type": "Application fintech · néobanque",
  "sous_titre": "Envoi d'argent, code secret, factures, crédit, budget, objectifs d'épargne, journal serveur",
  "couleur": "#0b3d2e",
  "graine": 37,
  "voix": [
-  [3.3, "Kola, un portefeuille Mobile Money pensé pour le quotidien,"],
+  [3.3, "Kola, un portefeuille mobile pensé pour le quotidien,"],
   [8.0, "on envoie de l'argent en trois gestes, frais affichés, code secret, reçu immédiat,"],
   [16.4, "on paie ses factures et on suit son budget, pendant que le serveur trace chaque opération."]
  ],
  "etapes": [
   {"t": "wait", "ms": 1500},
-  {"t": "eval", "js": "window.__send(0,15000)", "pause": 2000},
+  {"t": "eval", "js": "window.__send(0,120)", "pause": 2000},
   {"t": "eval", "js": "document.getElementById('go').click()", "pause": 1000},
   {"t": "eval", "js": "window.__pin('2468')", "pause": 2700},
   {"t": "eval", "js": "document.getElementById('okB').click()", "pause": 1500},

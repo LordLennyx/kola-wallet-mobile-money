@@ -1,7 +1,7 @@
 {
  "repo": "kola-wallet-mobile-money",
  "nom": "Kola",
- "type": "Application de portefeuille Mobile Money",
+ "type": "Application de portefeuille mobile",
  "categorie": "Applications mobiles",
  "resume": "Prototype haute fidélité d'un portefeuille mobile : solde masquable, envoi d'argent à un contact avec clavier, calcul des frais et contrôle du solde, confirmation par code secret, reçu, paiement de factures avec recherche du contrat, achat de crédit, code QR de réception, budget mensuel par catégorie et objectifs d'épargne. Un journal affiche en parallèle les événements serveur émis par chaque action.",
  "fonctions": [
@@ -13,5 +13,5 @@
   "Journal des événements serveur (transfer.initiated, auth.pin_verified, bill.paid…) en direct"
  ],
  "stack": "HTML, CSS, JavaScript natif, SVG",
- "extra": {"Typographies": "Manrope, JetBrains Mono", "Évolutions possibles": "application React Native ou Flutter, API d'agrégateur Mobile Money, connexion biométrique, tontines de groupe, détection de fraude"}
+ "extra": {"Typographies": "Manrope, JetBrains Mono", "Évolutions possibles": "application React Native ou Flutter, API bancaire DSP2 (open banking), connexion biométrique, tontines de groupe, détection de fraude"}
 }

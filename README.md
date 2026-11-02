@@ -1,6 +1,6 @@
 # Kola
 
-**Application de portefeuille Mobile Money** — Prototype haute fidélité d'un portefeuille mobile : solde masquable, envoi d'argent à un contact avec clavier, calcul des frais et contrôle du solde, confirmation par code secret, reçu, paiement de factures avec recherche du contrat, achat de crédit, code QR de réception, budget mensuel par catégorie et objectifs d'épargne. Un journal affiche en parallèle les événements serveur émis par chaque action.
+**Application de portefeuille mobile** — Prototype haute fidélité d'un portefeuille mobile : solde masquable, envoi d'argent à un contact avec clavier, calcul des frais et contrôle du solde, confirmation par code secret, reçu, paiement de factures avec recherche du contrat, achat de crédit, code QR de réception, budget mensuel par catégorie et objectifs d'épargne. Un journal affiche en parallèle les événements serveur émis par chaque action.
 
 **Démo en ligne : [https://lordlennyx.github.io/kola-wallet-mobile-money/](https://lordlennyx.github.io/kola-wallet-mobile-money/)**
 
@@ -21,7 +21,7 @@ Spot de présentation (30 s) : [media/spot-30s.mp4](https://lordlennyx.github.io
 
 - **Stack :** HTML, CSS, JavaScript natif, SVG
 - **Typographies :** Manrope, JetBrains Mono
-- **Évolutions possibles :** application React Native ou Flutter, API d'agrégateur Mobile Money, connexion biométrique, tontines de groupe, détection de fraude
+- **Évolutions possibles :** application React Native ou Flutter, API bancaire DSP2 (open banking), connexion biométrique, tontines de groupe, détection de fraude
 
 | Bureau | Mobile |
 |---|---|
